@@ -54,6 +54,11 @@ class ProcessCopernicus(AccessCopernicusDEM):
             # Redirect to assets
             self._SearchToListFile(self.pp.process.parameters.product)
             
+        elif self.pp.process.processid.lower() == 'boundboxtilescopernicus':
+            
+            # Redirect to assets
+            Snulle
+            
         else:
             
             exitstr = 'Exiting, processid %(p)s missing in ProcessCopernicus' %{'p':self.pp.process.processid}
